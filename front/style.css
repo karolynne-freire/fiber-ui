@@ -56,12 +56,25 @@
   }
   
 
-  .nav-link.active {
-    background-color: #56ab2f !important;
+ 
+
+  .nav-link:hover{
+    background-color: #56ab2f;
   }
 
+  .nav-color{
+    background: linear-gradient(135deg, #014619, #1d976c);
+  }
   .bg-fiber {
     background: linear-gradient(135deg, #70c18c, #1d976c);
+  }
+
+  h2{
+    color: #014619;
+  }
+
+  h5{
+    color:#1d976c ;
   }
   
   footer {
