@@ -4,8 +4,12 @@
   }
 
   body {
-    background-color: #f5f9f6;
-    font-family: 'Segoe UI', sans-serif;
+    background-color: #e5ebe6;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
   }
 
   .hero-section {
@@ -13,7 +17,7 @@
     background-image: url('https://img.freepik.com/fotos-gratis/arranjo-plano-de-frutas-e-legumes_23-2149271142.jpg?semt=ais_hybrid&w=740');
     background-size: cover;
     background-position: center;
-    height: 300px; /* ou 100vh para tela cheia */
+    height: 300px; 
     width: 100%;
   }
   
@@ -23,7 +27,7 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.4); /* escurece a imagem para texto ficar visível */
+    background-color: rgba(0, 0, 0, 0.4); 
     z-index: 1;
   }
   
@@ -65,6 +69,18 @@
   .nav-color{
     background: linear-gradient(135deg, #014619, #1d976c);
   }
+
+
+  .nav-link {
+    transition: background-color 0.3s ease;
+  }
+  .img-fiber {
+    transition: transform 0.3s ease;
+  }
+  .img-fiber:hover {
+    transform: scale(1.03);
+  }
+  
   .bg-fiber {
     background: linear-gradient(135deg, #70c18c, #1d976c);
   }
@@ -80,3 +96,15 @@
   footer {
     background-color: #2f3e2f;
   }
+
+  .col-sm-8 {
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  }
+  .btn-light:hover {
+    background-color: #56ab2f;
+    color: white;
+    transition: 0.3s;
+  }
+    
