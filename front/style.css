@@ -2,3 +2,68 @@
     height: 200px;
     background: #aaa;
   }
+
+  body {
+    background-color: #f5f9f6;
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  .hero-section {
+    position: relative;
+    background-image: url('https://img.freepik.com/fotos-gratis/arranjo-plano-de-frutas-e-legumes_23-2149271142.jpg?semt=ais_hybrid&w=740');
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* ou 100vh para tela cheia */
+    width: 100%;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* escurece a imagem para texto ficar visível */
+    z-index: 1;
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 2rem;
+  }
+  
+
+  .bg-fiber {
+    background: linear-gradient(135deg, #a8e063, #56ab2f);
+  }
+
+  .fakeimg {
+    background-color: #d4edda;
+    width: 100%;
+    padding: 20px;
+    color: #155724;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+
+  .img-fiber {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+
+  .nav-link.active {
+    background-color: #56ab2f !important;
+  }
+
+  .bg-fiber {
+    background: linear-gradient(135deg, #70c18c, #1d976c);
+  }
+  
+  footer {
+    background-color: #2f3e2f;
+  }
